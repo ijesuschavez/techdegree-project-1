@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 1px solid yellow;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(25deg);
 }
 .tag {
   background-color: #efefef;
@@ -88,7 +88,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.myinfo {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,8 +98,17 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.myinfo:hover {
   border-color: #ff99ff;
+}
+
+.imgs {
+  width: 375px;
+  height: 250px;
+}
+.projs {
+  width: 375px;
+  height: 250px;
 }
 
 ul.skills {
@@ -118,6 +127,19 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.skillz li {
+  border-radius: 6px;
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skillz li:nth-child(odd) {
+  background: red;
 }
 
 footer {
