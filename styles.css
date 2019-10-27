@@ -88,8 +88,13 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+
+.flex {
+margin: auto;
+}
+
 .myinfo {
-  margin: 30px;
+  margin: auto;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -102,13 +107,9 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
-.imgs {
-  width: 375px;
-  height: 250px;
-}
-.projs {
-  width: 375px;
-  height: 250px;
+.imgs, .projs {
+  width: 100%;
+  height: auto;
 }
 
 ul.skills {
@@ -190,7 +191,7 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
 
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -215,6 +216,9 @@ a.social:hover {
     padding-top: 20px;
   }
 
+.myinfo {
+  margin: 20px;
+}
   main p {
     line-height: 1.6em;
   }
